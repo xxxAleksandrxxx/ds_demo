@@ -30,6 +30,9 @@ font_size = 24
 my_font = 'Arial'
 
 app = Dash(__name__)
+
+server = app.server
+
 app.layout = html.Div([
     html.H1(
         'Automobile Sales Statistics Dashboard',
